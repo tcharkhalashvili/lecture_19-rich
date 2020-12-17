@@ -1,0 +1,39 @@
+.info{
+    padding-bottom: 40px;
+
+    .items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 150px;
+
+        .item {
+            
+
+            .text {
+                font-weight: bolder;
+                color: #343434;
+                font-size: 16px;
+                padding: 0px 53px;
+                padding-bottom: 27px;
+
+                span{
+                    color: #767676;
+                    font-size: 16px;
+                }
+            }
+
+            .title {
+                font-size: 200px;
+                color: darkgrey;
+                height: 135px;
+                overflow: hidden;
+            }    
+
+            .description {
+                color: #767676;
+                font-size: 16px;
+                padding: 46px 55px;
+            }
+        }
+    }
+}

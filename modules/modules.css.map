@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "modules.scss",
+        "main.scss"
+    ],
+    "names": [],
+    "file": "modules.css"
+}

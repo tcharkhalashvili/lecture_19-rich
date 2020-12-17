@@ -1,0 +1,49 @@
+.slider {
+    background-image: url(../images/personal.jpg);
+    width: 100%;
+    padding-top: 75px;
+    height: 100vh;
+    min-height: 590px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    .items {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        padding-top: 90px;
+
+        a.button {
+            font-family: montserrat,sans-serif;
+            display: inline-block;
+            border: 2px solid $auqva;
+            border-radius: 30px;
+            padding: 12px 38px 12px;
+            text-transform: uppercase;
+            background: $auqva;
+            font-size: 14px;
+            color: $white;
+            
+        }
+
+        a.button:hover {
+            background-color: white;
+            color: black;
+            
+        }
+        .description {
+            font-size: 22px;
+            line-height: 1.9;
+            font-weight: 300;
+            margin: 24px 0 18px 0;
+        }
+
+        .title {
+            font-family: montserrat,sans-serif;
+            font-size: 66px;
+            font-weight: 700;
+            color: $black;
+
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.about{
+    background-color: #1d1d1d;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+
+        .item {
+            padding: 25px 10px;
+            
+
+            .description{
+                font-size: 18px;
+                font-family: work sans,sans-serif;
+                color: #86878a;
+                
+            }
+
+            .title{
+                font-family: montserrat,sans-serif;
+                font-weight: 700;
+                font-size: 17px;
+                color: $white;
+                margin: 25px 0;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

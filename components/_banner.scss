@@ -1,0 +1,20 @@
+.banner{
+    padding-top: 100px;
+    padding-bottom: 40px;
+
+    .items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 25px;
+
+        .item{
+            display: grid;
+            justify-content: center;
+
+            img{
+                width: 100%;
+            }
+
+        }
+    }
+}

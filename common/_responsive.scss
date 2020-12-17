@@ -1,0 +1,107 @@
+
+/* tablet ----------- */
+    @media only screen and (max-width: 970px){
+        .container {
+            width: 100%;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .header .items .menu{
+            display: none;
+        }
+        .header .items {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+        }
+        .slider .items{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr;
+        }
+        .banner .items{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .projects .items{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        
+        .latest .latest_items{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            
+        }
+        .info .items{
+            display: grid;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+        }
+        .footer .items{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+    }
+    
+    /* mobail ----------- */
+    @media only screen and (max-width: 600px) and (min-width: 400px)  {
+
+        .container{
+            width: 100%;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .header .items .menu{
+            display: none;
+        }
+        .header .items {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+           
+        }
+        .slider .items{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+        .experience .items{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+
+        }
+        .about .items{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+        .banner .items{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+        
+        .latest .latest_items{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            
+        }
+        .info .items{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+        .footer .items{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        }
+    }
+    
+    

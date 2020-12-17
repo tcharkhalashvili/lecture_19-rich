@@ -1,0 +1,80 @@
+.portfolio{
+    padding-top: 50px;
+
+    .portfolio_list.color {
+        background-color: #f2f2f2;
+    }
+
+    .portfolio_list {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+        .item {
+            padding: 25px 0px;
+
+            .description {
+                font-family: work sans,sans-serif;
+                font-size: 16px;
+                line-height: 23px;
+                color: #767676;
+                margin: 10px 0;
+            }
+
+            .product {
+                font-family: montserrat,sans-serif;
+                font-weight: 600;
+                font-size: 18px;
+                color: #343434;
+                margin: 10px 0;
+            }
+            .portfolio_title {
+                font-family: montserrat,sans-serif;
+                font-weight: 600;
+                font-size: 18px;
+                margin: 19px 0;
+                color: #23a592;
+            }
+            
+            .portfolio_text {
+                font-family: montserrat,sans-serif;
+                font-weight: 700;
+                font-size: 15px;
+                color: #343434;
+                margin: 10px 0;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+
+        .cv {
+            font-family: montserrat,sans-serif;
+            font-weight: 700;
+            font-size: 33px;
+            color: #343434;
+            margin: 25px 0;
+        }
+
+        a.mycv {
+            display: grid;
+            justify-content: end;
+            font-family: montserrat,sans-serif;
+            font-weight: 700;
+            font-size: 19px;
+            margin: 43px 0;
+            color: #343434;
+            align-items: center;
+            text-align: center;
+            padding-right: 20px;
+            &:hover{
+                color:$auqva;
+            }
+        }
+    }
+}
